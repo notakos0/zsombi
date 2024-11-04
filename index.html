@@ -1,91 +1,40 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <title>Zsombi11 | website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zsombi11</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-            background: #121212;
-            background: url('back.png') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-        .header {
-            background: #000000; /* Teljesen fekete háttér */
-            padding: 20px;
-            text-align: left;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000; /* Biztosítja, hogy a header a tartalom felett legyen */
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        .header p {
-            margin: 0;
-            font-size: 18px;
-            color: #bbbbbb;
-        }
-
-        .content {
-            padding: 100px 20px 20px 20px; /* Hozzáadott top padding a header helyének biztosítására */
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        .footer {
-            background: #000000;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        a {
-            text-decoration: underline;
-            color: rgb(141, 117, 187);
-        }
-
-        .space {
-            width: auto;
-            height: 70px;
-        }
-
-        red {
-            color: red;
-        }
-
-    </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Zsombi11</h1>
-        <p>Weboldal</p>
-    </div>
-
-    <div class="content">
-        <h2>Linkek</h2>
-        <p><a href="https://www.tiktok.com/@zsombi.11">TikTok</a> | <a href="https://www.youtube.com/@Zsombi_11">YouTube</a> | <a href="https://discord.gg/mSCUAa4FRd">Discord</a></p>
-        <div class="space"></div>
-        <h2><red>Szeretnél részt venni az eventeken?</red></h2>
-        <p>Csatlakozz a <a href="https://discord.gg/mSCUAa4FRd">Zsombi_11</a> és a <a href="https://discord.gg/pGHvhtpx92">GGPlanet</a> discord szerverekhez!</p>
-        <p>Ha egy event van a láthatáron, itt mindig látni fogod!</p>
-        <!-- Itt további tartalom -->
-    </div>
-
-    <div class="footer">
-        <p style="font-size: large;">Maintained by <a href="https://webgg.net/">webgg.net</a>; Made by WIVTRICK</p>
+    <div class="opacity-transition">
+        <div class="container">
+            <!-- 10 darab elem, különböző itemthing osztályokkal -->
+            <div class="item itemthing1"></div>
+            <div class="item itemthing2"></div>
+            <div class="item itemthing3"></div>
+            <div class="item itemthing4"></div>
+            <div class="item itemthing5"></div>
+            <div class="item itemthing6"></div>
+            <div class="item itemthing7"></div>
+            <div class="item itemthing8"></div>
+            <div class="item itemthing9"></div>
+            <div class="item itemthing10"></div>
+        </div>
+        <div class="main">
+            <h1 class="animate">Zsombi11 weboldala</h1><br>
+            <p class="animate">Sziasztok vagyis csak szia...! Én Zsombi11 vagyok egy egyszerű TikTok streamer. Szeretek különleges dolgokat csinálni és sok különböző dolgot kipróbálni! A LIVE-okkal az a célom, hogy minnél több embernek elnyerje a tetszését és egy nagy közösséget építsek fel!
+                Ha gondolod csatlakozz discordra és ne felejtsd el, van egy anarchy szerveren is! Ott a gomb szóval mire vársz még?</p>
+            <br>
+            <div class="buttons animate">
+                <button onclick="window.open('https://discord.gg/4QKyccf5tG')">Discord</button>
+                <button onclick="window.open('https://www.tiktok.com/@zsombi.11')">TikTok</button>
+                <button onclick="window.open('https://www.youtube.com/@Zsombi_11')">YouTube</button>
+                <button onclick="window.open('https://ggplanet.hu')">GGPlanet</button>
+            </div>
+            <p class="sign animate">Zsombi11 Official Website @ webgg.net</p>
+        </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
